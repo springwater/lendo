@@ -1,8 +1,3 @@
-var ctx = '/' + window.location.pathname.split("/")[1];
-if (ctx.indexOf('.') > 0) {
-	ctx = '';
-}
-
 jQuery(document).ready(function() {
 	$("a[rel^='prettyPhoto']").prettyPhoto({
 		social_tools : false
